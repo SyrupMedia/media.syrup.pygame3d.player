@@ -38,7 +38,7 @@ pip install pygame pyopengl
 If you are looking to build this project using [Cython](https://cython.org), 
 you will have to install that as well.
 
-Here is it's installation command:
+Here is its installation command:
 ```sh
 pip install cython
 ```
