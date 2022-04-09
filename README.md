@@ -9,10 +9,20 @@ This is a free and open-source game framework and player controller using the Py
 This is not intended for professional use; it is really primitive all things considered. This was made in a single sitting in hopes of making
 Pygame game development more accesible. 
 
+## Building
+You can build this project using [Cython](https://cython.org) in order to turn it into a shared library file.
+
 ## Dependencies
-This project depends on the Pygame and PyOpenGL modules for Python.
+This project depends on the [Pygame](https://www.pygame.org) and [PyOpenGL](http://pyopengl.sourceforge.net/) modules for Python.
 
 Here is the installation command:
 ```zsh
-pip install pygame pyopengl
+pip install [pygame](https://pypi.org/project/pygame/) [pyopengl](https://pypi.org/project/PyOpenGL)
+```
+
+If you are looking to build this project using [Cython](https://cython.org), 
+you will have to install that as well.
+Here is the installation command:
+```zsh
+pip install [cython](https://pypi.org/project/Cython/)
 ```
