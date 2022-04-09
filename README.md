@@ -1,4 +1,4 @@
-# Pygame 3D Player Controller
+# PyGame 3D Player Controller
 ### media.syrup.pygame3D.player
 
 [![Ko-Fi](https://img.shields.io/badge/donate-kofi-blue?style=for-the-badge&logo=ko-fi&color=E35B57&logoColor=FFFFFF&labelColor=232323)](https://ko-fi.com/molasses)
