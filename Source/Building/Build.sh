@@ -8,6 +8,6 @@ cd ../
 python Setup.py build_ext --inplace # Convert Python to C
 
 # Cleaning
-mv Main.cpython-310-x86_64-linux-gnu.so ../Build/KawaiiRPG.so
+mv Main.cpython-310-x86_64-linux-gnu.so ../Build/Pygame3D.so
 rm -r -f build/
 rm -f Main.c
