@@ -16,13 +16,13 @@ You can build this project using [Cython](https://cython.org) in order to turn i
 This project depends on the [Pygame](https://www.pygame.org) and [PyOpenGL](http://pyopengl.sourceforge.net/) modules for Python.
 
 Here is the installation command:
-```zsh
-pip install [pygame](https://pypi.org/project/pygame/) [pyopengl](https://pypi.org/project/PyOpenGL)
+```sh
+pip install pygame pyopengl
 ```
 
 If you are looking to build this project using [Cython](https://cython.org), 
 you will have to install that as well.
 Here is the installation command:
-```zsh
-pip install [cython](https://pypi.org/project/Cython/)
+```sh
+pip install cython
 ```
