@@ -16,6 +16,13 @@ Pygame game development more accesible.
 ## Building
 You can build this project using [Cython](https://cython.org) in order to turn it into a shared library file.
 
+In order to build, simply run the [`Build.sh`](Source/Building/Build.sh) file with your Shell of choice.
+
+```zsh
+cd Source/Building/
+zsh Build.sh
+```
+
 ## Dependencies
 [![Cython](https://img.shields.io/badge/cython-pip-blue?style=for-the-badge&logo=python&color=E35B57&logoColor=FFFFFF&labelColor=232323)](https://pypi.org/project/Cython)
 [![PyGame](https://img.shields.io/badge/pygame-pip-blue?style=for-the-badge&logo=python&color=E35B57&logoColor=FFFFFF&labelColor=232323)](https://pypi.org/project/pygame)
