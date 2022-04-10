@@ -17,11 +17,12 @@ PyGame game development more accesible.
 ## Building
 You can build this project using [Cython](https://cython.org) in order to turn it into a library file.
 
-In order to build, simply run the [`Build.sh`](Source/Building/Build.sh) file with your Shell of choice.
+In order to build, simply run the [`Build.sh`](Source/Building/Build.sh) script with your Shell of choice.
 
 ```zsh
 cd Source/Building/
-sh Build.sh
+chmod +x Build.sh
+sh Build.sh # `./Build.sh` works too!
 ```
 
 ## Dependencies
