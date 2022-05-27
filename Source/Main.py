@@ -82,4 +82,14 @@ if __name__ == "__main__":
                 pygame.quit()
                 quit()
 
+        if event.type == pygame.KEYDOWN:
+            if event.key == K_UP:
+                glTranslatef(0, 0, -0.1)
+            elif event.key == K_DOWN:
+                glTranslatef(0, 0, 0.1)
+            elif event.key == K_LEFT:
+                glTranslatef(-0.1, 0, 0)
+            elif event.key == K_RIGHT:
+                glTranslatef(0.1, 0, 0)
+
         Update()
