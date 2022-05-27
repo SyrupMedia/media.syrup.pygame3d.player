@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "echo 'Building application!'; cd Source/Building && ./Build.sh",
+            "problemMatcher": [
+                "cython"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Playtest",
+            "type": "shell",
+            "command": "echo 'Building application!'; cd Source/Building && ./Build.sh && cd ../; python Main.py",
+            "problemMatcher": [
+                "cython"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        }
+    ]
+}
