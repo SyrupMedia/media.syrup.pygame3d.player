@@ -45,6 +45,9 @@ def Update():
 
     Model()
 
+    glEnable(GL_LIGHTING)
+    glEnable(GL_LIGHT0)
+
     pygame.display.flip()  # Update the frames
     pygame.time.wait(10)
 
@@ -55,6 +58,14 @@ if __name__ == "__main__":
     display = (int(windowWidth), int(windowHeight))
     # Enables OpenGL with *double buffering*
     pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
+
+    glLight(GL_LIGHT0, GL_POSITION,  (1, 5, 1, 0))
+    glLightfv(GL_LIGHT0, GL_AMBIENT, (0, 0, 0, 1))
+    glLightfv(GL_LIGHT0, GL_DIFFUSE, (2, 2, 2, 1))
+    glLightfv(GL_LIGHT0, GL_SPECULAR, (2, 2, 2, 1))
+    glEnable(GL_COLOR_MATERIAL)
+    glColorMaterial(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE )
+
 
     obj_box = (obj.vertices[0], obj.vertices[0])
 
