@@ -11,8 +11,7 @@ This is a free and open-source game framework and player controller using the [P
 This is not intended for professional use; it is really primitive all things considered. This was made in a single sitting in hopes of making
 PyGame game development more accesible. 
 
-![Preview](https://user-images.githubusercontent.com/60114762/162586906-517f2e0d-8deb-455d-9b5e-eb637073409d.svg)
-> This is what it looks like as of this version. Seriously.
+![Preview](Assets/Preview.svg)
 
 ## Building
 You can build this project using [Cython](https://cython.org) in order to turn it into a library file.
