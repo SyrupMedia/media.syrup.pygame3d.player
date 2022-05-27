@@ -28,12 +28,13 @@ sh Build.sh # `./Build.sh` works too!
 [![Cython](https://img.shields.io/badge/cython-pip-blue?style=for-the-badge&logo=python&color=E35B57&logoColor=FFFFFF&labelColor=232323)](https://pypi.org/project/Cython)
 [![PyGame](https://img.shields.io/badge/pygame-pip-blue?style=for-the-badge&logo=python&color=E35B57&logoColor=FFFFFF&labelColor=232323)](https://pypi.org/project/pygame)
 [![PyOpenGL](https://img.shields.io/badge/pyopengl-pip-blue?style=for-the-badge&logo=python&color=E35B57&logoColor=FFFFFF&labelColor=232323)](https://pypi.org/project/PyOpenGL)
+[![PyWavefront](https://img.shields.io/badge/pywavefront-pip-blue?style=for-the-badge&logo=python&color=E35B57&logoColor=FFFFFF&labelColor=232323)](https://pypi.org/project/PyWavefront/)
 
-This project depends on the [PyGame](https://www.pygame.org) and [PyOpenGL](http://pyopengl.sourceforge.net/) modules for Python.
+This project depends on the [PyGame](https://www.pygame.org) and [PyOpenGL](http://pyopengl.sourceforge.net/), and [PyWavefront](https://github.com/pywavefront/PyWavefront) modules for Python.
 
 Here is the installation command:
 ```sh
-pip install pygame pyopengl
+pip install pygame pyopengl pywavefront
 ```
 
 If you are looking to build this project using [Cython](https://cython.org), 
