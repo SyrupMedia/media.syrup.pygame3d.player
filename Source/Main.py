@@ -64,6 +64,9 @@ if __name__ == "__main__":
     glLightfv(GL_LIGHT0, GL_DIFFUSE, (2, 2, 2, 1))
     glLightfv(GL_LIGHT0, GL_SPECULAR, (2, 2, 2, 1))
     glEnable(GL_COLOR_MATERIAL)
+    glEnable(GL_POLYGON_SMOOTH)
+    glEnable(GL_POINT_SMOOTH)
+    glEnable(GL_LINE_SMOOTH)
     glColorMaterial(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE )
 
 
